@@ -17,7 +17,7 @@
 - usage **as_command lt.lazy_enabled 1**
 - **lt.lazy_enabled**: 0 or 1, Enable or Disable current plugin (default 1).
 - **lt.lazy_cfg**: Set lazy cfg filename (default server_lazy.cfg)
-- **lt.lazy_time** Set lazy config file load time after MapActivate triggered(default 0.25);
+- **lt.lazy_time** Set lazy config file load time after MapStart triggered(default 0.25);
 
 
 This is very simple angelscript plugin.
