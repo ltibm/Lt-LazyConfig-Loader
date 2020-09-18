@@ -16,6 +16,7 @@ void MapStart()
 	if(cvar_LoadTime.GetFloat() <= 0.001)
 	{
 		LoadLazyConfig();
+		return;
 	}
 
 	g_Scheduler.SetTimeout("LoadLazyConfig", cvar_LoadTime.GetFloat());
