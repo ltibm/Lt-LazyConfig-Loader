@@ -7,7 +7,7 @@ void PluginInit()
 	g_Module.ScriptInfo.SetContactInfo( "https://steamcommunity.com/id/ibmlt/" );
 	@cvar_Lazy = CCVar("lazy_cfg", "server_lazy", "Set cfg name", ConCommandFlag::AdminOnly);
 	@cvar_Enabled = CCVar("lazy_enabled", 1, "Enable or disable this addon", ConCommandFlag::AdminOnly);
-	@cvar_LoadTime = CCVar("lazy_time", 0.25, "Enable or disable this addon", ConCommandFlag::AdminOnly);
+	@cvar_LoadTime = CCVar("lazy_time", 0.25, "Set lazy config file loading time", ConCommandFlag::AdminOnly);
 	MapStart();
 }
 void MapStart()
